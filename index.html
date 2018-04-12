@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Match Game</title>
+	<link href = "resources/CSS/Reset.css" rel= "stylesheet" type = "text/css">
+	<link href="https://fonts.googleapis.com/css?family=Work+Sans:400,700,900" rel="stylesheet">
+	<link href="resources/CSS/style.css" rel = "stylesheet" type = "text/css">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+	<div class = "container">
+		<div class = "row">
+			<!--1/4 of the container's width for Game Instructions-->
+			<div class = "col-lg-3 col-xs-12 Game-instructions">
+				<h3>Match Game</h3>
+				<h6>Rules</h6>
+				<p>Click on a card to reveal the number on the other side. Click on a second card to try and find a match to the first. If you succeed, the pair will be removed from play. If not, try again!</p>
+				<h6>How To Win</h6>
+				<p>You win when all pairs have been found.</p>
+			</div>
+			<!--3/4 of the container's width for the game-->
+			<div class = "col-lg-9 col-xs-12" id = "game">
+				<div class = "row">
+					<div class = "col-3 card">
+						<p></p>
+					</div>
+					<div class = "col-3 card">
+					</div>
+					<div class = "col-3 card">
+					</div>
+					<div class = "col-3 card">
+					</div>
+				</div>
+				<div class ="row">
+					<div class = "col-3 card">
+					</div>
+					<div class = "col-3 card">
+					</div>
+					<div class = "col-3 card">
+					</div>
+					<div class = "col-3 card">
+					</div>
+				</div>
+				<div class = "row">
+					<div class = "col-3 card">
+					</div>
+					<div class = "col-3 card">
+					</div>
+					<div class = "col-3 card">
+					</div>
+					<div class = "col-3 card">
+					</div>
+				</div>
+				<div class = "row">
+					<div class = "col-3 card">
+					</div>
+					<div class = "col-3 card">
+					</div>
+					<div class = "col-3 card">
+					</div>
+					<div class = "col-3 card">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+  <script
+    src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="./resources/js/match-game.js"></script>
+  <script type="text/javascript" src="./resources/js/tests.js"></script>
+</body>
+</html>
